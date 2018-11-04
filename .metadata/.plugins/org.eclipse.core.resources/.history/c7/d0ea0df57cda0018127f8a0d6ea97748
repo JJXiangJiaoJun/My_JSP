@@ -1,0 +1,19 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form action="/MyDBtest/studatatest" method="post">
+	学生姓名<input type = "text" name="sname" value = "<%= request.getParameter("sname") %>"/><br/>
+	学生地址<input type="text" name="saddress" value="<%=request.getParameter("saddress") %>"/><br/>
+	学生主修<input type="text" name="smajor" value="<%=request.getParameter("smajor") %>"/><br/>
+	<input type="submit" value="修改"/><br/>
+	<input type="hidden" name="command" value="modify"/><br/>
+	<input type="hidden" name="sid" value="<%=request.getParameter("sid") %>"/>
+	</form>>
+</body>
+</html>

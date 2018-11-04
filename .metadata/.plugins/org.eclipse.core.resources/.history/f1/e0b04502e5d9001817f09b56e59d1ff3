@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<html>
+<head>
+<title>香蕉君的数据库测试程序</title>
+</head>
+<body>
+
+   <form action="/MyDBtest/studatatest" method = "post">
+  	学生姓名： <input type="text" name = "sname"/><br/>
+   	学生地址： <input type ="text" name = "saddress"/><br/>
+   	学生主修: <input type= "text" name = "smajor"/><br/>
+   	删除学号:<input type = "text" name = "delId"/><br/>
+   	<input type = "submit"   name = "command" value="save"/>
+   	<input type = "submit"  name = "command" value="delete"/>
+   </form>
+   
+   
+   
+</body>
+</html>

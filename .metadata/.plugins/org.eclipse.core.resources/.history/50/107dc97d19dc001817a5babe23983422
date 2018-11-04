@@ -1,0 +1,32 @@
+package InfoWriter;
+import GradeModel.Grade;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.SQLException;
+
+import ConnDB.dataBaseConnector;
+
+public class GradeInfoWriter {
+	private static final String database = "grade_info";
+	
+	public void saveGrade(Grade grade)
+	{
+		dataBaseConnector m_conn = new dataBaseConnector(database, "zqhzju", "zqh6623123");
+		Connection connection = m_conn.generateConn();
+		String command = "INSERT INTO "+database+"(gname) VALUES (?)";
+		
+		try {
+			PreparedStatement pre = connection.prepareStatement(command);
+			pre.setString(1, grade.getGname());
+			pre.executeUpdate();
+			System.out.println("插入班级成功!....");
+		} catch (SQLException e) {
+			// TODO Auto-generated catch block
+			System.out.println("插入班级失败!....");
+			e.printStackTrace();
+		}
+		
+		
+	}
+}
