@@ -445,3 +445,10 @@
 
 11月 04, 2018 20:57:30.43 NEW SESSION
 11月 04, 2018 20:57:30.43 context mismatch in svga_sampler_view_destroy
+
+11月 05, 2018 15:53:22.38 NEW SESSION
+11月 05, 2018 15:53:22.38 [7483:7483:1105/155322.280466:ERROR:input_method_base.cc(146)] Not implemented reached in virtual ui::InputMethodKeyboardController *ui::InputMethodBase::GetInputMethodKeyboardController()Using InputMethodKeyboardControllerStub
+11月 05, 2018 15:53:36.08 context mismatch in svga_sampler_view_destroy
+11月 05, 2018 15:53:36.08 context mismatch in svga_sampler_view_destroy
+11月 05, 2018 15:53:45.83 context mismatch in svga_sampler_view_destroy
+11月 05, 2018 15:55:03.50 context mismatch in svga_sampler_view_destroy

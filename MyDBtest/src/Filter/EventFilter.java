@@ -38,10 +38,12 @@ public class EventFilter implements Filter {
 		// place your code here
 
 		// pass the request along the filter chain
-		System.out.println("开始对reques进行过滤");
+		
+		request.setCharacterEncoding("UTF-8");
+		response.setCharacterEncoding("UTF-8");
 		chain.doFilter(request, response);
 		
-		System.out.println("过滤完毕");
+
 	}
 
 	/**
@@ -49,7 +51,7 @@ public class EventFilter implements Filter {
 	 */
 	public void init(FilterConfig fConfig) throws ServletException {
 		// TODO Auto-generated method stub
-		System.out.println("过滤器启动");
+	
 	}
 
 }

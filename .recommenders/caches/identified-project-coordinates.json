@@ -1,1 +1,1 @@
-[[{"location":"/usr/local/apache/lib/servlet-api.jar","type":"JAR","hints":{}},"ABSENT"],[{"location":"/usr/local/jdk1.8","type":"JRE","hints":{}},"jre:jre:1.8.0"]]
+[[{"location":"/home/zqhzju/eclipse-workspace/MyDBtest","type":"PROJECT","hints":{"PROJECT_NAME":"MyDBtest"}},"ABSENT"],[{"location":"/usr/local/apache/lib/servlet-api.jar","type":"JAR","hints":{}},"ABSENT"],[{"location":"/usr/local/jdk1.8","type":"JRE","hints":{}},"jre:jre:1.8.0"]]

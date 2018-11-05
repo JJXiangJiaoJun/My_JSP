@@ -1,0 +1,86 @@
+package Login;
+
+import java.io.IOException;
+import java.net.URLEncoder;
+
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
+import InfoWriter.LoginChecker;
+
+/**
+ * Servlet implementation class AdminServlet
+ */
+@WebServlet("/AdminServlet")
+public class AdminServlet extends HttpServlet {
+	private static final long serialVersionUID = 1L;
+    private LoginChecker loginChecker = new LoginChecker();  
+    /**
+     * @see HttpServlet#HttpServlet()
+     */
+    public AdminServlet() {
+        super();
+        // TODO Auto-generated constructor stub
+    }
+
+	/**
+	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		doPost(request, response);
+	}
+
+	/**
+	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
+	 */
+	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		// TODO Auto-generated method stub
+		
+		//这里是用户登录的界面，需要处理逻辑关系，考虑
+		//1、没有输入用户名 2、用户名错误 3、密码错误
+		String username = request.getParameter("username");
+		String passwd = request.getParameter("passwd");
+		//如果未输入用户名
+		if(username.equals("")||passwd.equals(""))
+		{	
+			System.out.println("未输入用户名");
+			String error_msg = "请输入用户名和密码";
+			String error =URLEncoder.encode(error_msg, "utf-8");
+			response.setCharacterEncoding("utf-8");
+			response.sendRedirect("/MyDBtest/login.jsp?error="+error);	
+		}
+		//对用户名进行查询
+		else
+		{
+		   String real_passwd = loginChecker.getPasswd(username);
+		   if(real_passwd.equals(""))
+		   {
+				System.out.println("没有此用户");
+				String error_msg = "没有此用户，请重新输入用户名";
+				String error =URLEncoder.encode(error_msg, "utf-8");
+				response.setCharacterEncoding("utf-8");
+				response.sendRedirect("/MyDBtest/login.jsp?error="+error);	
+		   }
+		   else if(real_passwd.equals(passwd))
+		   {
+			   
+		   }
+		   else {
+				System.out.println("密码错误");
+				String error_msg = "密码错误，请重新输入密码";
+				String error =URLEncoder.encode(error_msg, "utf-8");
+				response.setCharacterEncoding("utf-8");
+				response.sendRedirect("/MyDBtest/login.jsp?error="+error);	
+		   }
+		}
+		
+		
+		
+		
+	}
+
+}
