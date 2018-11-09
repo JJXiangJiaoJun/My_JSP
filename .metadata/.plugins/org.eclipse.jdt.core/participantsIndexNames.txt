@@ -1,11 +1,15 @@
 INDEX VERSION 1.131
 /home/zqhzju/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/3147349433.index
 /TomCatTest/src
-/home/zqhzju/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/483385625.index
-/TomCatTest/src
 /home/zqhzju/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1499759767.index
 /MyDBTtest/src
+/home/zqhzju/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/483385625.index
+/TomCatTest/src
+/home/zqhzju/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1149243270.index
+/StrutsDemo/src
 /home/zqhzju/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1740668347.index
 /MyDBtest/src
+/home/zqhzju/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/4106573556.index
+/StructsDemo/src
 /home/zqhzju/eclipse-workspace/.metadata/.plugins/org.eclipse.jst.jsp.core/jspsearch/1043292461.index
 /MyDBtest/src

@@ -2,8 +2,6 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="java.io.IOException"/>
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
-<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="jdk.nashorn.internal.runtime.linker.JavaAdapterFactory"/>
 <fullyQualifiedTypeName name="com.sun.image.codec.jpeg.JPEGImageDecoder"/>
@@ -35,14 +33,24 @@
 <fullyQualifiedTypeName name="InfoWriter.StuInfoWriter"/>
 <fullyQualifiedTypeName name="StudentModel.Student"/>
 <fullyQualifiedTypeName name="GradeModel.Grade"/>
-<fullyQualifiedTypeName name="java.lang.Integer"/>
-<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.net.URLEncoder"/>
 <fullyQualifiedTypeName name="ConnDB.dataBaseConnector"/>
 <fullyQualifiedTypeName name="java.sql.Connection"/>
 <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
 <fullyQualifiedTypeName name="java.sql.ResultSet"/>
+<fullyQualifiedTypeName name="java.lang.Integer"/>
+<fullyQualifiedTypeName name="com.sun.org.apache.regexp.internal.REDebugCompiler"/>
+<fullyQualifiedTypeName name="com.sun.media.jfxmedia.events.NewFrameEvent"/>
 <fullyQualifiedTypeName name="InfoWriter.LoginChecker"/>
+<fullyQualifiedTypeName name="sun.awt.RepaintArea"/>
+<fullyQualifiedTypeName name="com.sun.xml.internal.ws.policy.EffectiveAlternativeSelector"/>
 <fullyQualifiedTypeName name="javax.servlet.http.Cookie"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
+<fullyQualifiedTypeName name="java.text.Normalizer.Form"/>
+<fullyQualifiedTypeName name="Form.helloForm"/>
+<fullyQualifiedTypeName name="Action.HelloAction"/>
+<fullyQualifiedTypeName name="Form.HelloForm"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletRequest"/>
+<fullyQualifiedTypeName name="javax.servlet.http.HttpServletResponse"/>
 </qualifiedTypeNameHistroy>

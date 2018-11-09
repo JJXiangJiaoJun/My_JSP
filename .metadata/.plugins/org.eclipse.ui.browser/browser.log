@@ -452,3 +452,31 @@
 11月 05, 2018 15:53:36.08 context mismatch in svga_sampler_view_destroy
 11月 05, 2018 15:53:45.83 context mismatch in svga_sampler_view_destroy
 11月 05, 2018 15:55:03.50 context mismatch in svga_sampler_view_destroy
+
+11月 09, 2018 16:44:53.93 NEW SESSION
+11月 09, 2018 16:44:53.93 [19317:19317:1109/164453.929158:ERROR:input_method_base.cc(146)] Not implemented reached in virtual ui::InputMethodKeyboardController *ui::InputMethodBase::GetInputMethodKeyboardController()Using InputMethodKeyboardControllerStub
+11月 09, 2018 17:28:54.03 [23389:23389:1109/172854.035692:ERROR:input_method_base.cc(146)] Not implemented reached in virtual ui::InputMethodKeyboardController *ui::InputMethodBase::GetInputMethodKeyboardController()Using InputMethodKeyboardControllerStub
+11月 09, 2018 17:28:59.47 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:28:59.47 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:30:09.68 [23762:23762:1109/173009.685708:ERROR:input_method_base.cc(146)] Not implemented reached in virtual ui::InputMethodKeyboardController *ui::InputMethodBase::GetInputMethodKeyboardController()Using InputMethodKeyboardControllerStub
+11月 09, 2018 17:30:16.08 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:30:16.08 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:31:36.39 已在现有的浏览器会话中创建新的窗口。
+11月 09, 2018 17:31:50.43 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:31:50.43 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:00.32 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:00.32 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:17.86 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:17.86 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:28.02 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:41.29 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:41.29 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:41.29 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:41.29 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:57.57 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:32:57.57 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:33:13.11 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:33:25.60 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:33:25.60 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:33:25.60 context mismatch in svga_sampler_view_destroy
+11月 09, 2018 17:33:25.60 context mismatch in svga_sampler_view_destroy
